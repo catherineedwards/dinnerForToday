@@ -9,18 +9,25 @@ router.get('/', (req, res) => {
   
 })
 
-router.get('/recipes', (req, res) => {
-  res.render('main')
-})
-
-router.get('/recipes', (req, res) => {
-  res.send('this is working!')
- })
  router.get('/generateShoppingList', (req, res) => {
   res.render('main')
  })
  router.get('/edit/shoppinglist', (req, res) => {
   res.render('main')
+ })
+ router.post('/edit/shoppinglist', (req, res) => {
+  res.render('main')
+ })
+
+router.get('/recipes', (req, res) => {
+ res.render('main')
+})
+
+ router.post('/edit/shoppinglist', (req, res)=>{
+   db.adddShoppingList(req.body.add)
+   .then(()=>{
+     res.redirect('/')
+   })
  })
  
 
