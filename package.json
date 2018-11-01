@@ -1,13 +1,14 @@
 {
   "name": "boilerplate-knex",
   "version": "0.1.4",
-  "description": "Express boilerplate with Knex.js",
+  "description": "our app",
   "main": "index.js",
   "scripts": {
     "knex": "knex",
     "dev": "nodemon index",
     "start": "node index",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "knex migrate:latest && knex seed:run"
   },
   "repository": {
     "type": "git",
