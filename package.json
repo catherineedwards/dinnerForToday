@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-knex",
   "version": "0.1.4",
-  "description": "Express boilerplate with Knex.js",
+  "description": "our app",
   "main": "index.js",
   "scripts": {
     "knex": "knex",
