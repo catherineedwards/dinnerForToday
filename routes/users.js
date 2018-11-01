@@ -20,8 +20,18 @@ router.get('/recipes', (req, res) => {
   res.send('this is working!')
  })
  router.get('/edit/shoppinglist', (req, res) => {
-  res.send('this is working!')
+  res.render('shoppinglist')
  })
+
+ router.post('/edit/shoppinglist', (req, res)=>{
+   db.adddShoppingList(req.body.add)
+   .then(()=>{
+     res.redirect('/')
+   })
+ })
+ 
+
+ 
  
 
 module.exports = router
