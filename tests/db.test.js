@@ -10,23 +10,52 @@ beforeEach(() => {
 
 afterEach(() => testEnv.cleanup(testDb))
 
-test('getUsers gets all users', () => {
+test('returns the right route with the corrosponding id', () => {
   // One for each letter of the alphabet!
-  const expected = 26
+  const expected = (`${recipe}`)
   return db.getUsers(testDb)
     .then(users => {
-      const actual = users.length
+      const actual = recipe.id (corrosponding id)
       expect(actual).toBe(expected)
     })
     .catch(err => expect(err).toBeNull())
 })
 
-test('getUser gets a single user', () => {
-  const expected = 'Ambitious Aardvark'
-  return db.getUser(99901, testDb)
+test('returns an added  ingredient', () => {
+  const expected = 'Lamb'
+  return db.addingredient(ID and lamb, testDb)
     .then(user => {
-      const actual = user.name
+      const actual =  ingredient.name
       expect(actual).toBe(expected)
     })
     .catch(err => expect(err).toBeNull())
 })
+
+test('returns an updated ingredient', () => {
+  const expected = 'Lamb'
+  return db.updateshoppinglist(ingredient)
+    .then(user => {
+      const actual =  ingredient.name(updated)
+      expect(actual).toBe(expected)
+    })
+    .catch(err => expect(err).toBeNull())
+})
+test('deletes an ingredient', () => {
+  const expected = 'null'
+  return db.(ingredient)
+    .then(user => {
+      const actual =  ingredient.name(updated)
+      expect(actual).toBe(expected)
+    })
+    .catch(err => expect(err).toBeNull())
+})
+test('????', () => {
+  const expected = 'null'
+  return db.(ingredient)
+    .then(user => {
+      const actual =  ingredient.name(updated)
+      expect(actual).toBe(expected)
+    })
+    .catch(err => expect(err).toBeNull())
+})
+

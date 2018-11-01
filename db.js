@@ -9,10 +9,6 @@ module.exports = {
   deleteShoppingList
 }
 
-function getUsers (testConn) {
-  const conn = testConn || connection
-  return conn('users').select()
-}
 
 function getUser (id, testConn) {
   const conn = testConn || connection

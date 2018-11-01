@@ -1,0 +1,198 @@
+recipes =  [
+    {
+        Id: 00001,
+        name: "Confit Duck",
+        recipe ID: 10000
+
+},
+{
+    ID: 00002,
+    name: "Roast Chicken",
+    recipes ID: 20000
+},
+{
+    ID: 00003,
+    name: "Beef Bourguignon",
+    recipes ID: 30000,
+}
+]
+
+Ingredients = [
+    {
+        ID: 01000,
+        name: Duck,
+        type: Meat
+    },
+    {
+        ID: 02000,
+        name: Duck fat,
+        type: Meat
+    },
+    {
+        ID: 03000,
+        name: White Beans,
+        type: Dry goods
+    },
+    {
+        ID: 04000,
+        name: Herbs,
+        type: fresh
+    },
+    {
+        ID: 05000,
+        name: Garlic,
+        type: fresh
+    },
+    {
+        ID: 06000,
+        name: Chiken,
+        type: Meat
+    },
+    {
+        ID: 07000,
+        name: Carrot,
+        type: fresh
+    },
+    {
+        ID: 08000,
+        name: Potato,
+        type: fresh
+    },
+    {
+        ID: 09000,
+        name: Gravy,
+        type: Dry
+    },
+    {
+        ID: 01100,
+        name: Frozen Peas,
+        type: Frozen
+    },
+    {
+        ID: 01200,
+        name: Beef,
+        type: Meat
+    },
+    {
+        ID: 01300,
+        name: Red Wine,
+        type: Liqure
+    },
+    {
+        ID: 01400,
+        name: Beef Stock,
+        type: Fresh
+    },
+    {
+        ID: 01500,
+        name: Onion,
+        type: Fresh
+    },
+    
+]
+
+recipes ingredients = [
+    {
+        recipes ID: 10000,
+        ingredients ID: 01000,
+        name: Duck
+    },
+    {
+        recipes ID: 10000,
+        ingredients ID: 02000,
+        name: Duck Fat
+    },
+    {
+        recipes ID: 10000,
+        ingredients ID: 03000,
+        name: White Beans
+    },
+    {
+        recipes ID: 10000,
+        ingredients ID: 04000,
+        name: Herbs
+    },
+    {
+        recipes ID: 10000,
+        ingredients ID: 05000,
+        name: Garlic
+    },
+    {
+        recipes ID: 20000,
+        ingredients ID: 06000,
+        name: Chicken
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 07000,
+        name: Carrots
+    },
+    {
+        recipes ID: 20000,
+        ingredients ID: 08000,
+        name: Potato
+    },
+
+    {
+        recipes ID: 20000,
+        ingredients ID: 09000,
+        name: Gavey
+    },{
+        recipes ID: 20000,
+        ingredients ID: 01100,
+        name: Frozen Peas
+    },
+
+    {
+        recipes ID: 20000,
+        ingredients ID: 04000,
+        name: Herbs
+    },
+    {
+        recipes ID: 20000,
+        ingredients ID: 05000,
+        name: Garlic
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 01200,
+        name: Beef
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 01300,
+        name: Red Wine
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 01400,
+        name: Beef Stock
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 01500,
+        name: Onion
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 01100,
+        name: Frozen Peas
+    },
+
+    {
+        recipes ID: 30000,
+        ingredients ID: 04000,
+        name: Herbs
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 05000,
+        name: Garlic
+    },
+    {
+        recipes ID: 30000,
+        ingredients ID: 08000,
+        name: Potato
+    },
+
+]

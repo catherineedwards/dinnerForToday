@@ -6,6 +6,6 @@ exports.up = (knex, Promise) => {
   }
   
   exports.down = (knex, Promise) => {
-    return knex.schema.dropTable('ingredients')
+    return knex.schema.dropTable('recipes')
   }
   
