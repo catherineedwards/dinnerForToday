@@ -1,0 +1,198 @@
+recipies =  [
+    {
+        Id: 00001,
+        name: "Confit Duck",
+        recipie ID: 10000
+
+},
+{
+    ID: 00002,
+    name: "Roast Chicken",
+    recipie ID: 20000
+},
+{
+    ID: 00003,
+    name: "Beef Bourguignon",
+    recipie ID: 30000,
+}
+]
+
+Ingredients = [
+    {
+        ID: 01000,
+        name: Duck,
+        type: Meat
+    },
+    {
+        ID: 02000,
+        name: Duck fat,
+        type: Meat
+    },
+    {
+        ID: 03000,
+        name: White Beans,
+        type: Dry goods
+    },
+    {
+        ID: 04000,
+        name: Herbs,
+        type: fresh
+    },
+    {
+        ID: 05000,
+        name: Garlic,
+        type: fresh
+    },
+    {
+        ID: 06000,
+        name: Chiken,
+        type: Meat
+    },
+    {
+        ID: 07000,
+        name: Carrot,
+        type: fresh
+    },
+    {
+        ID: 08000,
+        name: Potato,
+        type: fresh
+    },
+    {
+        ID: 09000,
+        name: Gravy,
+        type: Dry
+    },
+    {
+        ID: 01100,
+        name: Frozen Peas,
+        type: Frozen
+    },
+    {
+        ID: 01200,
+        name: Beef,
+        type: Meat
+    },
+    {
+        ID: 01300,
+        name: Red Wine,
+        type: Liqure
+    },
+    {
+        ID: 01400,
+        name: Beef Stock,
+        type: Fresh
+    },
+    {
+        ID: 01500,
+        name: Onion,
+        type: Fresh
+    },
+    
+]
+
+recipie ingredients = [
+    {
+        Recipie ID: 10000,
+        ingredients ID: 01000,
+        name: Duck
+    },
+    {
+        Recipie ID: 10000,
+        ingredients ID: 02000,
+        name: Duck Fat
+    },
+    {
+        Recipie ID: 10000,
+        ingredients ID: 03000,
+        name: White Beans
+    },
+    {
+        Recipie ID: 10000,
+        ingredients ID: 04000,
+        name: Herbs
+    },
+    {
+        Recipie ID: 10000,
+        ingredients ID: 05000,
+        name: Garlic
+    },
+    {
+        Recipie ID: 20000,
+        ingredients ID: 06000,
+        name: Chicken
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 07000,
+        name: Carrots
+    },
+    {
+        Recipie ID: 20000,
+        ingredients ID: 08000,
+        name: Potato
+    },
+
+    {
+        Recipie ID: 20000,
+        ingredients ID: 09000,
+        name: Gavey
+    },{
+        Recipie ID: 20000,
+        ingredients ID: 01100,
+        name: Frozen Peas
+    },
+
+    {
+        Recipie ID: 20000,
+        ingredients ID: 04000,
+        name: Herbs
+    },
+    {
+        Recipie ID: 20000,
+        ingredients ID: 05000,
+        name: Garlic
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 01200,
+        name: Beef
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 01300,
+        name: Red Wine
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 01400,
+        name: Beef Stock
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 01500,
+        name: Onion
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 01100,
+        name: Frozen Peas
+    },
+
+    {
+        Recipie ID: 30000,
+        ingredients ID: 04000,
+        name: Herbs
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 05000,
+        name: Garlic
+    },
+    {
+        Recipie ID: 30000,
+        ingredients ID: 08000,
+        name: Potato
+    },
+
+]
