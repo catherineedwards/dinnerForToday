@@ -10,17 +10,22 @@ router.get('/', (req, res) => {
 })
 
 router.get('/recipes', (req, res) => {
-  res.render('main')
+  db.getRecipes(recipes => {
+    res.render('main', recipe)
+  })
 })
 
-router.get('/recipes', (req, res) => {
-  res.send('this is working!')
- })
+// router.post('/recipes', (req, res) => {
+//   res.send('this is working!')
+//  })
  router.get('/generateShoppingList', (req, res) => {
   res.render('main')
  })
  router.get('/edit/shoppinglist', (req, res) => {
   res.render('main')
+ })
+ router.post('/edit/shoppinglist', (req, res) => {
+  res.render('main', )
  })
  
 
