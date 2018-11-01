@@ -8,5 +8,6 @@ _Ingredients_
 * type
 
 _Shopping List_
+* item_id
 * item_name
 * item_location
