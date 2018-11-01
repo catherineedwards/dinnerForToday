@@ -3,12 +3,35 @@ const config = require('./knexfile')[environment]
 const connection = require('knex')(config)
 
 module.exports = {
-  getRecipes: getRecipes
+  getUser: getUser,
+  getUsers: getUsers,
+  addShoppingList,
+  deleteShoppingList
 }
 
 
+function getUser (id, testConn) {
+  const conn = testConn || connection
+  return conn('users').where('id', id).first()
+}
 
-  function getRecipes(testConn) {
+function addShoppingList() {
+  const conn = testConn || connection
+  const id = req.body.ing_id
+  return conn('shopping_list')
+  .where({id})
+  .insert({ing_id})
+
+  function deleteShoppingList(){
     const conn = testConn || connection
-    return conn('recipes').select()
+    const id = req.body.ing_id
+    return conn ('shopping_list')
+    .where({id})
+    .del()
   }
+
+
+
+
+
+}
