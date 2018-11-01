@@ -1,19 +1,19 @@
-recipies =  [
+recipes =  [
     {
         Id: 00001,
         name: "Confit Duck",
-        recipie ID: 10000
+        recipe ID: 10000
 
 },
 {
     ID: 00002,
     name: "Roast Chicken",
-    recipie ID: 20000
+    recipes ID: 20000
 },
 {
     ID: 00003,
     name: "Beef Bourguignon",
-    recipie ID: 30000,
+    recipes ID: 30000,
 }
 ]
 
@@ -91,106 +91,106 @@ Ingredients = [
     
 ]
 
-recipie ingredients = [
+recipes ingredients = [
     {
-        Recipie ID: 10000,
+        recipes ID: 10000,
         ingredients ID: 01000,
         name: Duck
     },
     {
-        Recipie ID: 10000,
+        recipes ID: 10000,
         ingredients ID: 02000,
         name: Duck Fat
     },
     {
-        Recipie ID: 10000,
+        recipes ID: 10000,
         ingredients ID: 03000,
         name: White Beans
     },
     {
-        Recipie ID: 10000,
+        recipes ID: 10000,
         ingredients ID: 04000,
         name: Herbs
     },
     {
-        Recipie ID: 10000,
+        recipes ID: 10000,
         ingredients ID: 05000,
         name: Garlic
     },
     {
-        Recipie ID: 20000,
+        recipes ID: 20000,
         ingredients ID: 06000,
         name: Chicken
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 07000,
         name: Carrots
     },
     {
-        Recipie ID: 20000,
+        recipes ID: 20000,
         ingredients ID: 08000,
         name: Potato
     },
 
     {
-        Recipie ID: 20000,
+        recipes ID: 20000,
         ingredients ID: 09000,
         name: Gavey
     },{
-        Recipie ID: 20000,
+        recipes ID: 20000,
         ingredients ID: 01100,
         name: Frozen Peas
     },
 
     {
-        Recipie ID: 20000,
+        recipes ID: 20000,
         ingredients ID: 04000,
         name: Herbs
     },
     {
-        Recipie ID: 20000,
+        recipes ID: 20000,
         ingredients ID: 05000,
         name: Garlic
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 01200,
         name: Beef
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 01300,
         name: Red Wine
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 01400,
         name: Beef Stock
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 01500,
         name: Onion
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 01100,
         name: Frozen Peas
     },
 
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 04000,
         name: Herbs
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 05000,
         name: Garlic
     },
     {
-        Recipie ID: 30000,
+        recipes ID: 30000,
         ingredients ID: 08000,
         name: Potato
     },
