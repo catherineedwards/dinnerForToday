@@ -11,12 +11,14 @@ router.get("/", (req, res) => {
 router.get("/recipes", (req, res) => {
   db.getRecipes()
     .then(recipes => {
-      res.render("main", { recipes: recipes });
+      console.log("I've come up with a new recipe", recipes)
+      res.render("recipes", {recipes: recipes});
     })
     .catch(err => {
       console.log(err);
     });
 });
+
 
 router.get("/generateShoppingList", (req, res) => {
   res.render("main");

@@ -11,7 +11,7 @@ module.exports = {
 
 function getRecipes (testConn) {
   const conn = testConn || connection
-  return conn('recipes')
+  return conn('recipes').select()
  }
 
 function getRecipe (id, testConn) {
