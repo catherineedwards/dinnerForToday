@@ -10,16 +10,16 @@ beforeEach(() => {
 
 afterEach(() => testEnv.cleanup(testDb))
 
-test('returns the right route with the corrosponding id', () => {
-  // One for each letter of the alphabet!
-  const expected = (`${recipe}`)
-  return db.getUsers(testDb)
-    .then(users => {
-      const actual = recipe.id (corrosponding id)
-      expect(actual).toBe(expected)
-    })
-    .catch(err => expect(err).toBeNull())
-})
+// test('returns the right route with the corrosponding id', () => {
+//   // One for each letter of the alphabet!
+//   const expected = (`${recipe}`)
+//   return db.getUsers(testDb)
+//     .then(users => {
+//       const actual = recipe.id (corrosponding id)
+//       expect(actual).toBe(expected)
+//     })
+//     .catch(err => expect(err).toBeNull())
+// })
 
 test('returns an added  ingredient', () => {
   const expected = 'Lamb'

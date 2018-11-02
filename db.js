@@ -4,13 +4,19 @@ const connection = require('knex')(config)
 
 module.exports = {
   addShoppingList,
+  getRecipes
   // deleteShoppingList
 }
+
+function getRecipes (testConn) {
+  const conn = testConn || connection
+  return conn('recipes')
+ }
 
 
 function getUser (id, testConn) {
   const conn = testConn || connection
-  return conn('users').where('id', id).first()
+  return conn('routes').where('id', id).first()
 }
 
 function addShoppingList() {
