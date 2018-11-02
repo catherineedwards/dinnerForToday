@@ -6,7 +6,8 @@ module.exports = {
   getRecipes,
   getRecipe,
   addShoppingList,
-  deleteShoppingList
+  deleteShoppingList,
+  getRecipesAndIngredients
 }
 
 function getRecipes (testConn) {
@@ -17,6 +18,14 @@ function getRecipes (testConn) {
 function getRecipe (id, testConn) {
   const conn = testConn || connection
   return conn('recipes').where('id', id).first()
+}
+
+function getRecipesAndIngredients (id,ing_id, testConn) {
+  const conn = testConn || connection
+  return conn('recipes_ingredients')
+  .join('ingredients', 'recipes_ingredients.ing_id', 'ingredients.ing_id')
+  .where('recipes_ingredients.id',id)
+  .select()
 }
 
 function addShoppingList() {

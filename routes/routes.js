@@ -19,6 +19,23 @@ router.get("/recipes", (req, res) => {
     });
 });
 
+router.get("/recipes/:id", (req, res)=> {
+  let id = req.params.id
+  db.getRecipe(id)
+  .then((recipe) => {
+    db.getRecipesAndIngredients(id)
+    .then(ingredients => {
+      recipe.ingredients = ingredients
+      console.log(recipe)
+      res.render('recipe', recipe)
+    })
+  })
+ 
+  .catch(err => {
+    res.status(500).send(err.message)
+  })
+})
+
 
 router.get("/generateShoppingList", (req, res) => {
   res.render("main");
